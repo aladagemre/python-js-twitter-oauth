@@ -6,6 +6,13 @@ This project aims to demo simplest version of Twitter Oauth login with pure Java
 
 It also stores Twitter tokens on MongoDB database.
 
+## Screenshots
+
+![Not logged in yet](img/loggedin0.png)
+![Logged in](img/loggedin1.png)
+
+(Login link opens a popup to Twitter authorization page)
+
 ## Why did I code for this?
 
 I could not find a simple way to do Twitter login with pure js. I had to use AngularJS to take advantage of satellizer. So I coded this.
