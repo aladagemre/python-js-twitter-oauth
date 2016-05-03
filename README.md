@@ -2,11 +2,17 @@
 
 ## What is this project for?
 
-This project aims to demo simplest version of Twitter Oauth login with pure Javascript (on the frontend) and Python (on the backend). Other solutions like satellizer forces you to use AngularJS. This project doesn't.
+This project aims to demo simplest version of Twitter Oauth login with pure Javascript (on the frontend) and Python (on the backend). Other solutions like satellizer forces you to use AngularJS. This project doesn't. 
+
+It also stores Twitter tokens on MongoDB database.
 
 ## Why did I code for this?
 
 I could not find a simple way to do Twitter login with pure js. I had to use AngularJS to take advantage of satellizer. So I coded this.
+
+## How it works
+
+Read [AuthMechanism](AuthMechanism.md) to see how authentication system works.
 
 ## Installation
 
