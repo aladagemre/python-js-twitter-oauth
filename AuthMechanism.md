@@ -1,3 +1,5 @@
+# Authentication Mechanism
+
 In this post, I will be explaining the Twitter OAUTH Authentication mechanism and how I implemented it with javascript+python.
 There are some unnecessary parts since I was inspired by satellizer. I didn't have chance to remove them completely.
 
