@@ -54,11 +54,7 @@ Twitter responds with profile details, access_token and access_token_secret.
 
 ## CallbackURL Backend => Popup Frontent
 
-Backend generates a token using this data and renders templates/token.html containing a javascript code and generated token information. JS Code calls window.opener.setToken and window.opener.setScreenName methods.
-
-Meanwhile, our frontend (main window) javascript code periodically check whether redirection came back to localhost. Since the redirection above results in our callback URL with token.html rendered, the check will succeed. It will close the popup window.
-
-**TODO:** it may be possible that the window is closed before setToken method is fired.
+Backend generates a token using this data and renders templates/token.html containing a javascript code and generated token information. JS Code calls window.opener.setToken method to notify main window. Then closes itself (the popup).
 
 ## Frontend
 
