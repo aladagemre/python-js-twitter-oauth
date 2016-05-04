@@ -109,6 +109,10 @@ def login_required(f):
 def index():
     return send_file(os.path.join(client_path, 'index.html'))
 
+@app.route('/wait')
+def wait():
+    return send_file(os.path.join(client_path, 'wait.html'))
+
 @app.route('/api/me')
 @login_required
 def me():
